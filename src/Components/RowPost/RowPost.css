@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+.shows{
+    margin-top: -3.5rem;
+    margin-bottom: 2rem;
+}
+.big-show{
+    margin-top: -4.5rem;
+    margin-bottom: 4rem;
+}
+.row{
+    margin-bottom: 3rem;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    height: 200px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    cursor: pointer;
+    max-height: 200px;
+    /* height: 150px; */
+    margin-right: 13px;
+    transition: all .2s ease-in-out;
+}
+.smallPoster{
+    cursor: pointer;
+    max-height: 170px;
+    margin-right: 10px;
+    transition: all .2s ease-in-out;
+}
+.poster:hover{
+    transform: scale(1.1);
+}
+.smallPoster:hover{
+    transform: scale(1.1);
+}
+.showName{
+    margin-top: -2rem;
+    margin-right: 1.1rem;
+    direction: rtl;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 1.9rem;
+    color:white;
+    text-shadow: 0 2px 5px darkred;
+}
+.showNameSmall{
+    margin-top: -2rem;
+    margin-right: 1.1rem;
+    font-size: large;
+    direction: rtl;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 1.9rem;
+    color:whitesmoke;
+    text-shadow: 0 0 5px darkred;
+}
+.category{
+    font-family: 'Quicksand',sans-serif;
+}

@@ -1,0 +1,24 @@
+.container{
+    color: whitesmoke;
+    margin-left: 1.2rem;
+    margin-top: 4rem;
+    font-family: 'roboto',sans-serif;
+}
+.page-name{
+    color: rgba(131, 171, 189, 0.452);
+}
+.show-category{
+    margin-top: 1.5rem;
+    color: rgba(245, 245, 245, 0.9);
+}
+.show-poster{
+    max-height: 200px;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+.poster-container{
+    margin-top: -4rem;
+    margin-left: -1rem;
+    display: flex;
+    overflow-x: hidden;
+}

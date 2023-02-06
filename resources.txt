@@ -1,0 +1,17 @@
+TMDB API
+url :  https://api.themoviedb.org/3/
+imgUrl : https://image.tmdb.org/t/p/original
+Key :  011197be68c0deda335db4bb9ec3df65
+
+call : https://api.themoviedb.org/3/movie/550?api_key=011197be68c0deda335db4bb9ec3df65
+
+videoUrl : https://api.themoviedb.org/3/movie/{movie_id}/videos?api_key=<<api_key>>&language=en-US
+
+
+https://imdb-api.com/API/MostPopularMovies/k_v0d8w6y5
+
+base : https://imdb-api.com/API/
+key : k_v0d8w6y5
+
+
+    "openssl": "^2.0.0",
