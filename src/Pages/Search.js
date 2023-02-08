@@ -6,10 +6,14 @@ function Search() {
   return (
     <div className='container'>
         <br /><br />
-        {/* <h2>Search function is under development stage </h2>
-        <br />
-        <h4>Thank you for the patiance :) </h4> */}
+        <div className="search-info">
+          <h4 className='scs'>silentCosmicSorry..,</h4>
+        <p>Search function is under development stage </p>
+        
+        <p className='patience'>Thank you for your patience :) </p>
         <div className="search">
+
+        </div>
         </div>
         
     </div>

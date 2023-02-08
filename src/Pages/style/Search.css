@@ -1,0 +1,24 @@
+.search-info{
+    color: rgba(128, 128, 128, 0.7);
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.search-info:hover{
+    color: darkgray;
+    transform: scale(1.1);
+}
+
+.scs{
+    margin-right: 13%;
+}
+.patience{
+    margin-left: 15%;
+}
