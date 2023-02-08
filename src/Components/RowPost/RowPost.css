@@ -27,7 +27,6 @@
 .poster{
     cursor: pointer;
     max-height: 200px;
-    /* height: 150px; */
     margin-right: 13px;
     transition: all .2s ease-in-out;
 }

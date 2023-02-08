@@ -12,13 +12,28 @@
     color: rgba(245, 245, 245, 0.9);
 }
 .show-poster{
+    cursor: pointer;
     max-height: 200px;
-    margin-top: 5rem;
     margin-left: 1rem;
+    transition: all .2s ease-in-out;
+}
+.show-poster:hover{
+    transform: scale(1.1);
 }
 .poster-container{
-    margin-top: -4rem;
     margin-left: -1rem;
+    padding: 20px;
+    height: 200px;
     display: flex;
     overflow-x: hidden;
+}
+.shows{
+    margin-top: -3.5rem;
+    margin-bottom: 2rem;
+}
+.page-contents{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 20px;
+    color: whitesmoke;
 }

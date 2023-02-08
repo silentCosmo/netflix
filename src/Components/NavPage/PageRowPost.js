@@ -23,9 +23,10 @@ function PageRowPost(props) {
 
   return (
     <div>
-        <div>
+        <div className='shows'>
+          <div className="page-contents">
       <h3 className='show-category'>{props.title}</h3>
-      </div>
+      
       <div className="poster-container" ref={postersRef} onWheel={handleWheel} >
         
         {
@@ -38,8 +39,8 @@ function PageRowPost(props) {
             )
           })
         }
-          
-          
+          </div>
+          </div>
           
       </div>
     </div>

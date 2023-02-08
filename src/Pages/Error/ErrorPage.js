@@ -115,7 +115,7 @@ function ErrorPage() {
         <h1 >404 Error</h1>  
       <h2>Couldn't launch :(</h2>
       
-         <h3>{error.statusText === "Not Found" ? "Page Not Found - lets take you back to" : error.statusText || error.message} <a href="/">HOME</a></h3> 
+         <h3>{error.statusText === "Not Found" ? "Page Not Found - lets take you back to" : error.statusText || error.message} <a className='error-home' href="/">HOME</a></h3> 
     
     </div>
     </div>
