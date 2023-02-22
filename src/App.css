@@ -41,3 +41,15 @@ a{
     text-decoration: none;
     color: inherit;
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(128, 128, 128, 0.473);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(169, 169, 169, 0.541);
+}
+::-webkit-scrollbar-track-piece{
+    background-color: inherit;
+}
