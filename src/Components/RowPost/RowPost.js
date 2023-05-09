@@ -20,7 +20,7 @@ function RowPost(props) {
     }).catch(err=>{
       alert("Axios Error!")
     })
-  },[])
+  },[props.url])
   
 
 
@@ -44,9 +44,6 @@ function RowPost(props) {
         )})
       }
       
-      
-      
-
       </div>
 
     </div>

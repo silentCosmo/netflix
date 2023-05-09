@@ -1,0 +1,36 @@
+.footer {
+    width: 100%;
+    height: 5%;
+    padding-top: rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+
+.social {
+    padding: 20px;
+}
+
+.soci {
+    transition: all .2s;
+    font-size: x-large;
+    margin-inline: .5rem;
+}
+
+.soci:hover {
+    color: whitesmoke;
+    transform: scale(1.3);
+}
+
+.ftext {
+    width: 100%;
+    letter-spacing: 0.2em;
+    transition: all .5s cubic-bezier(1, 0, 0.7, 1);
+}
+
+.ftext:hover {
+    letter-spacing: .7em;
+}

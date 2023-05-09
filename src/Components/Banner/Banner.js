@@ -2,7 +2,6 @@ import "./Banner.css"
 import React, { useEffect, useState } from 'react'
 import axios from '../../axios'
 import { API_KEY, imageUrl } from "../../constants/constants"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 
 function Banner() {

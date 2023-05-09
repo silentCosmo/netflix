@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Components/NavPage/NavPage.css'
 import PageRowPost from '../Components/NavPage/PageRowPost'
-import { today_tv,latest_tv, popular_movies, popular_tv, rated_movies, rated_tv, trending_movies, upcoming_movies, sci_tv, sci_fi } from '../urls'
+import { latest_tv, popular_tv, rated_movies, rated_tv, trending_movies, upcoming_movies, sci_tv, sci_fi } from '../urls'
 
 function NavPage(props) {
   return (

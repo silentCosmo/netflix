@@ -6,11 +6,29 @@ import { imageUrl } from '../../constants/constants';
 
 function PageRowPost(props) {
   
-    const postersRef = useRef(null);
+  const postersRef = useRef(null);
+
+  const handleWheel = (e) => {
+    e.preventDefault()
+    /* postersRef.current.scrollLeft += e.deltaY; */
+  };
+
+/*   const handleWindowWheel = (e) => {
+    if (e.deltaY === 0) return; // do nothing if no scroll happened
+    e.preventDefault();
+  };
 
   const handleWheel = (e) => {
     postersRef.current.scrollLeft += e.deltaY;
   };
+
+  useEffect(() => {
+    window.addEventListener('wheel', handleWindowWheel, { passive: false });
+    return () => {
+      window.removeEventListener('wheel', handleWindowWheel);
+    };
+  }, []); */
+
 
   const [program,setProgram] = useState([])
 
@@ -19,7 +37,7 @@ function PageRowPost(props) {
         console.log('movie: ', response.data.results);
         setProgram(response.data.results)
       })
-    },[])
+    },[props.url])
 
   return (
     <div>

@@ -63,6 +63,11 @@
     color:whitesmoke;
     text-shadow: 0 0 5px darkred;
 }
-.category{
-    font-family: 'Quicksand',sans-serif;
+/* .category{
+    font-family: 'Quicksand',sans-serif; 
+}*/
+@media(max-width:520px){
+    .category{
+    margin-top: 5rem;
+    }
 }

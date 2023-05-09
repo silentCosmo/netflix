@@ -19,24 +19,24 @@ function NavBar() {
       <div className="items-right">
         
         {/* Search Toggle */}
-
-
-
-
+        <ul>
         <li> <Link to= "/search" className='us'> <i class="fa-solid fa-magnifying-glass"></i> </Link></li>
         <li>KIDS</li>
         <li>DVD</li>
-        
         <li>
-
           <span className='notification'> 
-        <i class="fa-solid fa-bell"></i>
-         <span className="badge">3</span></span>
-         </li>
+          <i class="fa-solid fa-bell"></i>
+          <span className="badge">3</span></span>
+        </li>
+        </ul>
       </div>
 
 
-      <img className='avatar' src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="" />
+      <img className='avatar' src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="avatar" />
+      {/* Menu Icon */}
+      {/* <div className="menu">
+        <i class="fa-sharp fa-solid fa-bars fa-xl"></i>
+      </div> */}
     </div>
   )
 }
